@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>相亲交友平台</title>
+    <style>
+        body {
+            background-image: url(作业图片素材/img6.jpg);
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 25px;
+        }
+
+        input[type=text] {
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+        }
+
+        select {
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+        }
+
+
+
+        textarea {
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+        }
+
+        div a {
+            margin-right: 45px;
+        }
+
+        input[type="radio"] {
+            transform: scale(2);
+        }
+
+        input[type="checkbox"] {
+            transform: scale(2);
+        }
+
+        .slider {
+            width: 500px;
+            height: 500px;
+            overflow: hidden;
+            position: absolute;
+            right: 60px;
+            top: 100px;
+
+
+        }
+
+        .slider img {
+            width: 500px;
+            height: 300px;
+            position: absolute;
+            left: 0;
+            top: 200px;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .slider img.active {
+            opacity: 1;
+        }
+
+        .navigation-buttons {
+            background: transparent;
+            border: 1px solid black;
+            padding: 5px 10px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .navigation-buttons button {
+            background: transparent;
+            border: 1px solid black;
+            padding: 5px 10px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+
+
+        body {
+            background-color: pink;
+        }
+
+        input[type=button] {
+            text-align: center;
+            width: 200px;
+            height: 50px;
+            font-size: 30px;
+        }
+
+        div {
+            width: 100%;
+        }
+
+        div a {
+            font-size: 30px;
+            padding: 30px 30px;
+            margin: right 10px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        input[type=button]:hover {
+            transform: scale(1.5);
+        }
+
+        .red {
+            color: red;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .purple {
+            color: purple;
+        }
+
+        .red {
+
+            font-size: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<h1>真爱网</h1>
+<div>
+
+    <a href="D:\VScode\Web大作业\注册登录.html" target="_blank" class="red">注册登录</a>
+    <a href="D:\VScode\Web大作业\关于此站.html" target="_blank" class="blue">关于此站</a>
+    <a href="D:\VScode\Web大作业\网站特色.html" target="_blank" class="yellow">网站特色</a>
+    <a href="D:\VScode\Web大作业\图片欣赏.html" target="_blank" class="purple">图片欣赏</a>
+
+    <br><br>
+</div>
+
+<h3>基本资料</h3>
+<table width="800" cellpadding="4">
+
+    <tr>
+        <td>昵称：</td>
+        <td><input type="text" value=""></td>
+    </tr>
+
+    <!-- 第二行 -->
+
+    <tr>
+        <td>个性签名</td>
+        <td><input type="text" value=""></td>
+    </tr>
+
+
+    <tr>
+        <td> 邮箱</td>
+        <td><input type="text" value=""><br>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td>职业</td>
+        <td><select>
+                <option>--请选择--</option>
+                <option>学生</option>
+                <option>模特</option>
+                <option>公务员/行政</option>
+                <option>教育/培训</option>
+                <option>娱乐/艺术</option>
+                <option>文化/广告</option>
+                <option>商业/服务业</option>
+                <option>金融/银行</option>
+                <option>计算机/互联网</option>
+                <option>生产/制作</option>
+            </select></td>
+    </tr>
+    <tr>
+        <td>
+            访问本站的目的：</td>
+        <td><select>
+                <option>--请选择--</option>
+                <option>交友</option>
+                <option>找对象</option>
+                <option>其他</option>
+            </select>
+        </td>
+    </tr>
+
+</table>
+<br>
+<p class="red">感受缘分，找到真爱</p><a href="D:\VScode\Web大作业\了解更多.html">了解更多</a>
+<br><br>
+<form onsubmit="return false;">
+
+    <input type="button" value="提交" onclick="redirectToLink()">
+
+</form>
+
+<tr>
+    <td></td>
+    <td>
+        <h4>我承诺</h4>
+        <ul>
+            <li>年满十八岁、单身</li>
+            <li>抱着严肃的态度</li>
+            <li>真诚寻找另一半</li>
+        </ul>
+    </td>
+    <td>
+</tr>
+<tr>
+    <td> <img src="作业图片素材/img25.jpg"></td>→
+    <td> <img src="作业图片素材/img26.jpg"></td>→
+    <td> <img src="作业图片素材/img27.jpg"></td>
+</tr>
+
+<div class="slider">
+    <img src="作业图片素材/img1.webp" alt="Image 4" class="active">
+    <img src="作业图片素材/img2.webp" alt="Image 2">
+    <img src="作业图片素材/img3.jpg" alt="Image 3">
+    <img src="作业图片素材/img12.webp" alt="Image 6">
+    <img src="作业图片素材/img30.webp" alt="Image 5">
+    <img src="作业图片素材/img31.webp" alt="Image 1">
+
+
+</div>
+
+
+
+
+
+</div>
+</div>
+<script>
+    function redirectToLink() { alert("已保存"); }
+    const sliderImages = document.querySelectorAll('.slider img');
+    let currentSlide = 0;
+
+    function nextSlide() {
+        sliderImages[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % sliderImages.length;
+        sliderImages[currentSlide].classList.add('active');
+    }
+
+    setInterval(nextSlide, 1500);
+</script>
+</body>
+
+</html>
